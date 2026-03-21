@@ -189,6 +189,7 @@
         <span class="px-4 py-2 bg-white rounded-full text-sm font-bold text-ads-accent border border-blue-200 shadow-sm">プログラミング不要</span>
         <span class="px-4 py-2 bg-white rounded-full text-sm font-bold text-ads-accent border border-blue-200 shadow-sm">120分で完成</span>
         <span class="px-4 py-2 bg-white rounded-full text-sm font-bold text-ads-accent border border-blue-200 shadow-sm">学生割引あり</span>
+        <span class="px-4 py-2 bg-white rounded-full text-sm font-bold text-ads-accent border border-blue-200 shadow-sm">親子参加可能</span>
       </div>
     </div>
 
@@ -334,60 +335,6 @@
           <p class="text-xs text-ads-dim mb-1">前年比成長率（2025→2026）</p>
           <p class="text-3xl font-black text-ads-accent">+68<span class="text-lg">%</span></p>
           <p class="text-xs text-ads-muted mt-1">たった1年で1.7倍に</p>
-        </div>
-      </div>
-
-      <!-- NVIDIA 売上高 折れ線グラフ -->
-      <p class="text-xs text-ads-dim mb-3">NVIDIA（AIに必要なチップを作っている会社）の売上高</p>
-      <div class="bg-ads-surface rounded-lg p-4 border border-ads-border/50 mb-2">
-        <svg viewBox="0 0 460 250" class="w-full">
-          <!-- グリッド線 -->
-          <line x1="60" y1="30" x2="420" y2="30" stroke="#E2E8F0" stroke-width="1"/>
-          <line x1="60" y1="68" x2="420" y2="68" stroke="#E2E8F0" stroke-width="1"/>
-          <line x1="60" y1="105" x2="420" y2="105" stroke="#E2E8F0" stroke-width="1"/>
-          <line x1="60" y1="143" x2="420" y2="143" stroke="#E2E8F0" stroke-width="1"/>
-          <!-- Y軸ラベル -->
-          <text x="55" y="34" text-anchor="end" font-size="10" fill="#94A3B8">35兆円</text>
-          <text x="55" y="72" text-anchor="end" font-size="10" fill="#94A3B8">26兆円</text>
-          <text x="55" y="109" text-anchor="end" font-size="10" fill="#94A3B8">18兆円</text>
-          <text x="55" y="147" text-anchor="end" font-size="10" fill="#94A3B8">9兆円</text>
-          <!-- X軸 -->
-          <line x1="60" y1="180" x2="420" y2="180" stroke="#CBD5E1" stroke-width="1"/>
-          <!-- 塗りつぶしエリア: 4→9→20→32 (max35) -->
-          <polygon points="120,163 220,141 320,94 420,43 420,180 120,180" fill="#10B981" opacity="0.1"/>
-          <!-- 折れ線 -->
-          <polyline points="120,163 220,141 320,94 420,43" fill="none" stroke="#10B981" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="draw-line"/>
-          <!-- ドット -->
-          <circle cx="120" cy="163" r="5" fill="#10B981"/>
-          <circle cx="220" cy="141" r="5" fill="#10B981"/>
-          <circle cx="320" cy="94" r="5" fill="#10B981"/>
-          <circle cx="420" cy="43" r="7" fill="#10B981" stroke="white" stroke-width="2"/>
-          <!-- データラベル -->
-          <text x="120" y="155" text-anchor="middle" font-size="11" fill="#64748B" font-weight="bold" dy="-10">4兆円</text>
-          <text x="220" y="133" text-anchor="middle" font-size="11" fill="#64748B" font-weight="bold" dy="-10">9兆円</text>
-          <text x="320" y="84" text-anchor="middle" font-size="11" fill="#64748B" font-weight="bold" dy="-10">20兆円</text>
-          <text x="420" y="33" text-anchor="middle" font-size="13" fill="#10B981" font-weight="900">32兆円</text>
-          <!-- 前年比は下の数字カードに移動 -->
-          <!-- X軸ラベル -->
-          <text x="120" y="198" text-anchor="middle" font-size="11" fill="#94A3B8">2022</text>
-          <text x="220" y="198" text-anchor="middle" font-size="11" fill="#94A3B8">2023</text>
-          <text x="320" y="198" text-anchor="middle" font-size="11" fill="#94A3B8">2024</text>
-          <text x="420" y="198" text-anchor="middle" font-size="11" fill="#10B981" font-weight="bold">2025</text>
-        </svg>
-        <p class="text-xs text-ads-dim text-right mt-1">出典: <a href="https://www.macrotrends.net/stocks/charts/NVDA/nvidia/revenue" target="_blank" rel="noopener noreferrer" class="underline hover:text-ads-accent">MacroTrends</a> / NVIDIA IR (1ドル=150円換算)</p>
-      </div>
-
-      <!-- NVIDIA 数字カード -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
-        <div class="bg-ads-surface rounded-lg p-4 border border-ads-border/50 text-center">
-          <p class="text-xs text-ads-dim mb-1">2025年 NVIDIA売上高</p>
-          <p class="text-3xl font-black text-ads-positive">32<span class="text-lg">兆円</span></p>
-          <p class="text-xs text-ads-muted mt-1">任天堂（約1.7兆円）の<strong class="text-ads-positive">約19倍</strong></p>
-        </div>
-        <div class="bg-ads-surface rounded-lg p-4 border border-ads-border/50 text-center">
-          <p class="text-xs text-ads-dim mb-1">前年比成長率（2024→2025）</p>
-          <p class="text-3xl font-black text-ads-positive">+60<span class="text-lg">%</span></p>
-          <p class="text-xs text-ads-muted mt-1">3年で8倍。AIチップの需要が爆発的に伸びている</p>
         </div>
       </div>
 
@@ -781,7 +728,7 @@
           </div>
           <div class="flex items-start gap-3">
             <div class="w-6 h-6 rounded-full bg-ads-accent text-white flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold">3</div>
-            <p class="text-sm text-ads-text">「作る体験」を繰り返す ── どんどん<strong>自分でいい料理が作れるようになる</strong></p>
+            <p class="text-sm text-ads-text">「作る体験」を繰り返す ── どんどん<strong>自分でアイデアを形にできるようになる</strong></p>
           </div>
           <div class="flex items-start gap-3">
             <div class="w-6 h-6 rounded-full bg-ads-positive text-white flex items-center justify-center flex-shrink-0 mt-0.5 text-xs font-bold">4</div>
@@ -1184,6 +1131,10 @@
         <p class="font-bold text-ads-text text-sm mb-2">Q. スマホだけでも参加できますか？</p>
         <p class="text-sm text-ads-muted">パソコンでの参加をおすすめしています。画面が大きい方が操作しやすく、学習効果も高いためです。</p>
       </div>
+      <div class="bg-white rounded-xl p-5 shadow-sm border border-ads-border/50 cool-in">
+        <p class="font-bold text-ads-text text-sm mb-2">Q. 親と一緒に参加することは可能ですか？</p>
+        <p class="text-sm text-ads-muted">もちろん可能です。ご家族皆さんで受けていただいて問題ございません。</p>
+      </div>
     </div>
 
     <!-- ===== 実績紹介 ===== -->
@@ -1247,22 +1198,12 @@
           </div>
           <div class="flex-1 pb-4">
             <p class="font-bold text-ads-text text-sm">ヒアリング（無料・15分程度）</p>
-            <p class="text-xs text-ads-muted mt-1">お子さんの学年・興味のある分野・作りたいアプリのイメージなどをお聞きします。</p>
+            <p class="text-xs text-ads-muted mt-1">興味のある分野・作りたいアプリのイメージなどをお聞きします。</p>
           </div>
         </div>
         <div class="flex gap-4">
           <div class="flex flex-col items-center">
-            <div class="w-8 h-8 rounded-full bg-ads-accent text-white flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
-            <div class="w-0.5 flex-1 bg-ads-border mt-2"></div>
-          </div>
-          <div class="flex-1 pb-4">
-            <p class="font-bold text-ads-text text-sm">日程調整</p>
-            <p class="text-xs text-ads-muted mt-1">ご都合に合わせて日程を決定。平日夜・土日対応可能です。</p>
-          </div>
-        </div>
-        <div class="flex gap-4">
-          <div class="flex flex-col items-center">
-            <div class="w-8 h-8 rounded-full bg-ads-positive text-white flex items-center justify-center font-bold text-sm flex-shrink-0">4</div>
+            <div class="w-8 h-8 rounded-full bg-ads-positive text-white flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
           </div>
           <div class="flex-1">
             <p class="font-bold text-ads-text text-sm">受講開始</p>
@@ -1310,13 +1251,7 @@
           <a href="https://www.gartner.com/en/newsroom/press-releases/2025-09-17-gartner-says-worldwide-ai-spending-will-total-1-point-5-trillion-in-2025" target="_blank" rel="noopener noreferrer" class="underline hover:text-ads-accent">[2] Gartner「Worldwide AI Spending Will Total $1.5 Trillion in 2025」(2025年9月)</a>
         </p>
         <p class="text-xs text-ads-dim">
-          <a href="https://www.macrotrends.net/stocks/charts/NVDA/nvidia/revenue" target="_blank" rel="noopener noreferrer" class="underline hover:text-ads-accent">[3] MacroTrends「NVIDIA Revenue 2012-2026」</a>
-        </p>
-        <p class="text-xs text-ads-dim">
-          <a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" target="_blank" rel="noopener noreferrer" class="underline hover:text-ads-accent">[4] NVIDIA IR「Financial Reports」</a>
-        </p>
-        <p class="text-xs text-ads-dim">
-          [5] W.S. Jevons「The Coal Question」(1865) ── ジェボンズのパラドックスの原典
+          [3] W.S. Jevons「The Coal Question」(1865) ── ジェボンズのパラドックスの原典
         </p>
       </div>
     </div>
